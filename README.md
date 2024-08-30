@@ -22,7 +22,7 @@ The first question and rightfully so as to deal with forensics, is find and comp
 <img src="https://github.com/user-attachments/assets/adc26d8b-afb9-465d-a6ea-341d6bcdda9c" height="100%" width="100%" alt="Autopsy Lab"/>
 <br />
 <br />
-Now begins putting the pieces togethers and the questions move through important artifacts and data found on the computer such as finding the non-default users and when they last logged in. The list of accounts created are: H4S4N, joshwa, keshav, sandhya, shreya, sivapriya, srini, and suba. The user sivapriya was the last to login. <br/>
+Now begins putting the pieces together and the questions move through important artifacts and data found on the computer such as finding the non-default users and when they last logged in. The list of accounts created are: H4S4N, joshwa, keshav, sandhya, shreya, sivapriya, srini, and suba. The user sivapriya was the last to login. <br/>
 <img src="https://github.com/user-attachments/assets/b842803a-d8bb-4de2-8f6e-c99f610968c2" height="100%" width="100%" alt="Autopsy Lab"/>
 <br />
 <br />
