@@ -18,19 +18,19 @@ Text
 
 <h2>Lab Overview</h2>
 
-The first question and rightfully so as with forensics, it is esential to know you are examing the correct image and it has not been tampered with. So I found the hash of the image by going to data sources, clicking on the disk and under file metadata it shows the hash. <br/>
+The first question and rightfully so as to deal with forensics, is find and compare the hash of the image you are examining to ensure you are investigating the correct machine and it has not been tampered with. I found the hash of the image by going to data sources, clicking on the disk and under file metadata it shows the hash. MD5 Hash = 3f08c518adb3b5c1359849657a9b2079 <br/>
 <img src="https://github.com/user-attachments/assets/adc26d8b-afb9-465d-a6ea-341d6bcdda9c" height="100%" width="100%" alt="Autopsy Lab"/>
 <br />
 <br />
-Now begins putting the pieces togethers and the questions move through important artifacts and data found on the computer such as finding the non-default users and when they last logged in which was the user sivapriya. <br/>
+Now begins putting the pieces togethers and the questions move through important artifacts and data found on the computer such as finding the non-default users and when they last logged in. The list of accounts created are: H4S4N, joshwa, keshav, sandhya, shreya, sivapriya, srini, and suba. The user sivapriya was the last to login. <br/>
 <img src="https://github.com/user-attachments/assets/b842803a-d8bb-4de2-8f6e-c99f610968c2" height="100%" width="100%" alt="Autopsy Lab"/>
 <br />
 <br />
-Next question and important evidence to find is the MAC address any configured network IP address on the computer so it can corroborate with other evidence of network traffic. <br/>
+The next questions are to find the MAC address any configured network IP address on the computer. These are critical evidence to find to corroborate with other evidence such network traffic or illegally downloading senstive content. The MAC addres is 08-00-27-2c-c4-b9 and the configured private IP address configured is 192.168.130.216.<br/>
 <img src="https://github.com/user-attachments/assets/c0684475-a780-48f5-96a7-97d7f8562e1e" height="100%" width="100%" alt="Autopsy Lab"/>
 <br />
 <br />
-The next question asked for the network card information for the computer which I did not know where that was so I used the keyword search with a regular expression (a long shot because it could be called ethernet or ETH or something like that) the keyword search is great for finding specific strings on the file system if you know what they are or think you know what they are. (if you have the patience or have no other lead becasue they take away depending on the CPU)<br/>
+The next question asked for the network card information for the computer which I was unaware of the location. However, within autopsy there is a keyword search in which I used a regular expression search which was a long shot because it could be called ethernet or eth0 or something along those lines. The keyword search is great for finding specific strings on the file system if you know what they are or think you know what they are. Thankfully I was able to find to find the network card through this search which is: Intel(R) PRO/1000 MT Desktop Adapter.<br/>
 <img src="https://github.com/user-attachments/assets/a72e8f70-e1c6-4aad-ad75-4947e8d2fc38" height="100%" width="100%" alt="Autopsy Lab"/>
 <img src="https://github.com/user-attachments/assets/49a466f2-cc24-41d1-a5e3-6759c62b2e81" height="100%" width="100%" alt="Autopsy Lab"/>
 <br />
